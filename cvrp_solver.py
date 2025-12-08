@@ -383,7 +383,8 @@ class GeneticAlgorithmCVRP:
 # --- Main Execution ---
 
 if __name__ == "__main__":
-    base_path = r"C:\Users\Asus\Desktop\BK-22-05-2025\OneDrive\Documentos\Felipe\Uniandes\MOS\Proyecto-E3\cvrp_content-main"
+    # Si está en la carpeta raíz del proyecto (Proyecto-E3), usar la siguiente línea 
+    base_path = r"cvrp_content-main"
     cases = ["caso_base", "caso_2", "caso_3"]
     
     for case in cases:
