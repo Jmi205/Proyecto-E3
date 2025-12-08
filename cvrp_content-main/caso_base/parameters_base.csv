@@ -1,5 +1,11 @@
-Parameter,Value,Unit,Description
-# NOTE: This is the BASE CASE - use default CVRP parameters only
-# For project-specific costs (A/B/C) see the parameters file in each project folder
-fuel_price,16300,COP/gallon,Standard gasoline price
-fuel_efficiency_typical,30,km/gallon,Typical vehicle fuel efficiency estimate
+Parameter,Value,Unit,Description,unit
+# NOTE: This is the BASE CASE - use default CVRP parameters only,,,,
+# For project-specific costs (A/B/C) see the parameters file in each project folder,,,,
+fuel_price,16300.0,COP/gallon,Standard gasoline price,
+fuel_efficiency_typical,30.0,km/gallon,Typical vehicle fuel efficiency estimate,
+C_fixed,50000.0,,Fixed activation cost per vehicle,COP/vehicle
+C_dist,427.96,,Precio de mantenimiento por Km de un vehiculo de transporte,COP/Km
+C_time,14600.0,,Costo operativo por hora de un vehículo (salario del conductor),COP/Hora
+C_fixed,50000.0,,Fixed activation cost per vehicle,COP/vehicle
+C_dist,427.96,,Precio de mantenimiento por Km de un vehiculo de transporte,COP/Km
+C_time,14600.0,,Costo operativo por hora de un vehículo (salario del conductor),COP/Hora
