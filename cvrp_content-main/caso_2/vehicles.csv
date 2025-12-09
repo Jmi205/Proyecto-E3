@@ -1,4 +1,4 @@
-VehicleID,VehicleType,StandardizedID,Capacity,Range
+VehicleID,StandardizedID,VehicleType,Capacity,Range
 1,V001,small van,131.9211396722696,145.85207096486445
 2,V002,medium van,108.4356199315333,1304.605971281605
 3,V003,medium van,91.50425520531196,953.172608610164
