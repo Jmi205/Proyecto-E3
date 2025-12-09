@@ -1,0 +1,2 @@
+VehicleId,DepotId,InitialLoad,RouteSequence,ClientsServed,DemandsSatisfied,TotalDistance,TotalTime,FuelCost
+1,1,101,1-5-3-8-7-9-2-1-4-6-1,9,5-15-10-12-15-15-12-6-11,52.856707,2.32644,28718.810727
